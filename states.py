@@ -181,7 +181,7 @@ finger_4_lbl.place(x = 45, y = 470)
 finger_4 = Scale(root, orient = HORIZONTAL, length = 300, from_ = -60, to = 60, tickinterval = 10, resolution = 1)
 finger_4.place(x = 45, y = 500)
 # Мезинец палец
-finger_5_lbl = Label(text = 'МЕЗИНЕЦ', font = main_font, bg = main_bg_color, fg = main_fg_color, relief = 'flat')
+finger_5_lbl = Label(text = 'МИЗИНЕЦ', font = main_font, bg = main_bg_color, fg = main_fg_color, relief = 'flat')
 finger_5_lbl.place(x = 45, y = 570)
 finger_5 = Scale(root, orient = HORIZONTAL, length = 300, from_ = -60, to = 60, tickinterval = 10, resolution = 1)
 finger_5.place(x = 45, y = 600)
